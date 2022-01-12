@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "uotw:item/boomerang/lizal_tri_boomerang"
+  }
+}

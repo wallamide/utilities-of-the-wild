@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "utilities_of_the_wild",
+  "version": "${version}",
+  "name": "Utilities of the Wild",
+  "description": "BotW mod ",
+  "authors": [
+    "Wallamide"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "",
+    "issues": ""
+  },
+  "license": "MIT",
+  "icon": "assets/uotw/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.servate.uotw.client.UotWClient"
+    ],
+    "main": [
+      "net.servate.uotw.UotW"
+    ],
+    "modmenu": [
+      ""
+    ]
+  },
+  "mixins": [
+    "uotw.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.6",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "custom": {
+    "wallamide": "???"
+  }
+}

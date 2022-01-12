@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.servate.uotw.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "EnchantmentHelperMixin",
+    "EnchantmentMixin"
+    
+  ],
+  "client": [
+    "ItemRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
